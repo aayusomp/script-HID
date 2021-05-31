@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>   PRUEBA DISPOSITIVOS HID </p>
+<p></p>
+
+<p>DISPOSITIVO CONECTADOS: </p>
+<p id="nom-dispositivo"></p>
+
+<button href="#" id="ConnectDevice" >Connect device</button>
+<button href="#" id="DisconnectDevice" >Disconnect device</button>
+
+<p> Selecciona que desea simular:(pedido correcto por defecto)</p>
+<button id="pedido_correcto"> Pedido Correcto </button>
+<button id="pedido_cancelado"> Pedido Cancelado </button>
+
+<p> Selecciona el efecto que desea simular:(luz fija por defecto)</p>
+
+<button id="start-LuzFija"> Luz Fija </button>
+<button id="start-LuzIntermitente"> Luz Intermitente </button>
+
+<p></p>
+<p> DEMO:</p>
+<p id="connect" style=color:red;"></p>
+<button id="start"> Start </button>
+<button id="stop"> Stop </button>
+
+
+<!-- Scripts -->
+<script type="module" src="js/script-HID.js"></script>
+
+
+
+</body>
+</html>
